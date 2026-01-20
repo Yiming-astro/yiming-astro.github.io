@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set up MutationObserver to watch for dynamically added links
     setupLinkObserver();
 
+    // Set up email copy
+    setupEmailPopCopy();
     // Mobile Menu Toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -596,3 +598,35 @@ function setupLinkObserver() {
         subtree: true
     });
 }
+
+function setupEmailPopCopy() {
+    const btn = document.querySelector('.email-pop');
+    if (!btn) return;
+
+    const emailSpan = btn.querySelector('.pop-text');
+    const email = (emailSpan ? emailSpan.textContent : '').trim();
+    if (!email) return;
+
+    btn.addEventListener('click', async (e) => {
+        e.preventDefault();
+        btn.classList.toggle('is-open');
+
+        if (btn.classList.contains('is-open')) {
+            try {
+                await navigator.clipboard.writeText(email);
+                if (emailSpan) {
+                    const old = emailSpan.textContent;
+                    emailSpan.textContent = 'Copied! ' + old;
+                    setTimeout(() => { emailSpan.textContent = old; }, 900);
+                }
+            } catch (err) {
+                // 如果剪贴板权限失败，就只显示邮箱，不报错
+            }
+        }
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!btn.contains(e.target)) btn.classList.remove('is-open');
+    });
+}
+
