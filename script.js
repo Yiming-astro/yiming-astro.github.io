@@ -27,6 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Load publications data from JSON file
     loadPublications();
+
+    // Load updated time
+    loadLastUpdated();
     
     // Smooth scrolling for navigation links
     const navLinks = document.querySelectorAll('.nav-links a');
@@ -638,5 +641,20 @@ function setupEmailPopCopy() {
     document.addEventListener('click', (e) => {
         if (!btn.contains(e.target)) btn.classList.remove('is-open');
     });
+}
+
+function loadLastUpdated() {
+    let jsonPath = 'data/last_updated.json';
+    if (window.location.pathname.includes('/pages/')) {
+        jsonPath = '../data/last_updated.json';
+    }
+
+    fetch(jsonPath, { cache: 'no-store' })
+        .then(r => r.json())
+        .then(d => {
+            const el = document.getElementById('last-updated');
+            if (el && d.last_updated) el.textContent = d.last_updated;
+        })
+        .catch(() => {});
 }
 
