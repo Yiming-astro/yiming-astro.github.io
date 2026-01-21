@@ -5,7 +5,7 @@
     "venue": "Nature Astronomy",
     "year": "2026",
     "highlight": "",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
+    "thumbnail": "assets/publications/Firefly/workflow.png",
     "tags": [
       { "text": "Paper", "link": "https://www.nature.com/articles/s41550-025-02766-6" },
       { "text": "Code", "link": "https://github.com/Yiming-astro/Firefly-ringdown" }
@@ -17,7 +17,7 @@
       "venue": "AAAI'26",
       "year": "2026",
       "highlight": "",
-      "thumbnail": "assets/publications/placeholder/paper-thumb.png",
+      "thumbnail": "assets/publications/token_diversity/workflow.png",
       "tags": [
         { "text": "Paper", "link": "https://arxiv.org/abs/2505.24768" }
       ]
@@ -39,7 +39,7 @@
       "venue": "PRD",
       "year": "2025",
       "highlight": "",
-      "thumbnail": "",
+      "thumbnail": "assets/publications/GWKAN/workflow.png",
       "tags": [
         { "text": "Paper", "link": "https://doi.org/10.1103/7rcs-pz1c" },
         { "text": "Code", "link": "https://github.com/liu-ws/KMADE" }
