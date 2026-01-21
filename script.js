@@ -418,7 +418,17 @@ function getVenueFullName(venueStr, year) {
     if (s.includes('GLOBECOM')) return `IEEE Global Communications Conference (GLOBECOM${yearSuffix})`;
     if (s.includes('INFOCOM')) return `IEEE International Conference on Computer Communications (INFOCOM${yearSuffix})`;
     if (s.includes('MOBICOM')) return `Annual International Conference on Mobile Computing and Networking (MobiCom${yearSuffix})`;
-    
+
+    // Astronomy & Astrophysics Journals (No year suffix)
+    if (s === 'ApJ') return 'The Astrophysical Journal';
+    if (s === 'MNRAS') return 'Monthly Notices of the Royal Astronomical Society';
+    if (s === 'A&A') return 'Astronomy & Astrophysics';
+    if (s === 'AJ') return 'The Astronomical Journal';
+    if (s === 'PRD') return 'Physical Review D';
+    if (s === 'PRL') return 'Physical Review Letters';
+    if (s === 'PRX') return 'Physical Review X';
+    if (s === 'JCAP') return 'Journal of Cosmology and Astroparticle Physics';
+
     if (s.toLowerCase().includes('arxiv')) return 'arXiv preprint';
     
     return s;

@@ -1,26 +1,92 @@
 [
   {
-    "title": "AcaNova-X: A Modern and Elegant Academic Website Template",
-    "authors": "<strong>Your Name</strong>, Collaborator A, Collaborator B",
-    "venue": "CVPR 2025",
-    "year": "2025",
-    "highlight": "Oral",
+    "title": "A practical Bayesian method for gravitational-wave ringdown analysis with multiple modes",
+    "authors": "<strong>Yiming Dong*</strong>, Ziming Wang*, Hai-Tian Wang, Junjie Zhao, Lijing Shao†",
+    "venue": "Nature Astronomy",
+    "year": "2026",
+    "highlight": "",
     "thumbnail": "assets/publications/placeholder/paper-thumb.png",
     "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" },
-      { "text": "Project Page", "link": "#" }
+      { "text": "Paper", "link": "https://www.nature.com/articles/s41550-025-02766-6" },
+      { "text": "Code", "link": "https://github.com/Yiming-astro/Firefly-ringdown" }
     ]
   },
   {
-    "title": "Another Great Research Work on Machine Learning",
-    "authors": "Collaborator A, <strong>Your Name</strong>, Collaborator B",
-    "venue": "NeurIPS 2024",
-    "year": "2024",
-    "highlight": "Spotlight",
-    "thumbnail": "",
-    "tags": [
-      { "text": "Paper", "link": "#" }
-    ]
+      "title": "From Macro to Micro: Probing Dataset Diversity in Language Model Fine-Tuning",
+      "authors": "Haoyu Li*, Xuhong Li*, <strong>Yiming Dong</strong>, Kun Liu†",
+      "venue": "AAAI'26",
+      "year": "2026",
+      "highlight": "",
+      "thumbnail": "assets/publications/placeholder/paper-thumb.png",
+      "tags": [
+        { "text": "Paper", "link": "https://arxiv.org/abs/2505.24768" }
+      ]
+  },
+  {
+      "title": "Inferring neutron-star Love-Q relations from gravitational waves in the hierarchical Bayesian framework",
+      "authors": "Zhihao Zheng, Ziming Wang†, Jinwen Deng, <strong>Yiming Dong</strong>, Lijing Shao†",
+      "venue": "Preprint",
+      "year": "2025",
+      "highlight": "",
+      "thumbnail": "",
+      "tags": [
+        { "text": "Paper", "link": "https://arxiv.org/abs/2510.22137" }
+      ]
+  },
+  {
+      "title": "Lightweight posterior construction for gravitational-wave catalogs with the Kolmogorov-Arnold network",
+      "authors": "Wenshuai Liu, <strong>Yiming Dong†</strong>, Ziming Wang, Lijing Shao†",
+      "venue": "PRD",
+      "year": "2025",
+      "highlight": "",
+      "thumbnail": "",
+      "tags": [
+        { "text": "Paper", "link": "https://doi.org/10.1103/7rcs-pz1c" },
+        { "text": "Code", "link": "https://github.com/liu-ws/KMADE" }
+      ]
+  },
+  {
+      "title": "Reanalyzing the ringdown signal of GW150914 using the F-statistic method",
+      "authors": "Hai-Tian Wang†, Ziming Wang, <strong>Yiming Dong</strong>, Garvin Yim, Lijing Shao",
+      "venue": "PRD",
+      "year": "2025",
+      "highlight": "",
+      "thumbnail": "",
+      "tags": [
+        { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.111.064037" }
+      ]
+  },
+  {
+      "title": "New limits on the local Lorentz invariance violation of gravity in the standard model extension with pulsars",
+      "authors": "<strong>Yiming Dong*</strong>, Ziming Wang*, Lijing Shao†",
+      "venue": "PRD",
+      "year": "2024",
+      "highlight": "",
+      "thumbnail": "",
+      "tags": [
+        { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.109.084024" }
+      ]
+  },
+  {
+      "title": "Moment of inertia for axisymmetric neutron stars in the standard model extension",
+      "authors": "<strong>Yiming Dong</strong>, Zexin Hu, Rui Xu, Lijing Shao†",
+      "venue": "PRD",
+      "year": "2023",
+      "highlight": "",
+      "thumbnail": "",
+      "tags": [
+        { "text": "Paper", "link": "https://doi.org/10.1103/PhysRevD.108.104039" }
+      ]
+  },
+  {
+      "title": "Prospects for constraining the Yukawa gravity with pulsars around Sagittarius A*",
+      "authors": "<strong>Yiming Dong</strong>, Lijing Shao†, Zexin Hu, Xueli Miao, Ziming Wang",
+      "venue": "JCAP",
+      "year": "2022",
+      "highlight": "",
+      "thumbnail": "",
+      "tags": [
+        { "text": "Paper", "link": "https://doi.org/10.1088/1475-7516/2022/11/051" }
+      ]
   }
 ]

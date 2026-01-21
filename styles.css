@@ -518,3 +518,37 @@ details summary {
   border: 6px solid transparent;
   border-top-color: #111;
 }
+
+.experience-item {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.experience-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  background-color: #d1a35c;
+  border-radius: 50%;
+}
+
+/* Awards section: dot list style */
+#honors .timeline-item {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+#honors .timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 7px;
+  height: 7px;
+  background-color: #d4a562; /* accent */
+  border-radius: 50%;
+}
+
