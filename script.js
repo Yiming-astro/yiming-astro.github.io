@@ -421,6 +421,7 @@ function getVenueFullName(venueStr, year) {
     if (s.includes('GLOBECOM')) return `IEEE Global Communications Conference (GLOBECOM${yearSuffix})`;
     if (s.includes('INFOCOM')) return `IEEE International Conference on Computer Communications (INFOCOM${yearSuffix})`;
     if (s.includes('MOBICOM')) return `Annual International Conference on Mobile Computing and Networking (MobiCom${yearSuffix})`;
+    if (s.includes('ICLR')) return `International Conference on Learning Representations (ICLR${yearSuffix})`;
 
     // Astronomy & Astrophysics Journals (No year suffix)
     if (s === 'ApJ') return 'The Astrophysical Journal';

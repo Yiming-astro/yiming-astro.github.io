@@ -1,5 +1,27 @@
 [
   {
+    "title": "Probing RLVR training instability through the lens of objective-level hacking",
+    "authors": "<strong>Yiming Dong</strong>, Kun Fu, Haoyu Li, Xinyuan Zhu, Yurou Liu, Lijing Shao, Jieping Ye, Zheng Wang†",
+    "venue": "Preprint",
+    "year": "2026",
+    "highlight": "",
+    "thumbnail": "assets/publications/RLVR_instability/workflow.png",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2602.01103" }
+    ]
+  },
+  {
+    "title": "DrugTrail: Explainable Drug Discovery via Structured Reasoning and Druggability-Tailored Preference Optimization",
+    "authors": "Yurou Liu, Mingyang Li, Xinyuan Zhu, Rui Jiao, <strong>Yiming Dong</strong>, Xinyu Tang, Yang Liu, Jieping Ye, Bing Su†, Zheng Wang†",
+    "venue": "ICLR'26",
+    "year": "2026",
+    "highlight": "",
+    "thumbnail": "assets/publications/Drugtrail/workflow.png",
+    "tags": [
+      { "text": "Paper", "link": "https://openreview.net/forum?id=1pAW0y8WLH" }
+    ]
+  },
+  {
     "title": "A practical Bayesian method for gravitational-wave ringdown analysis with multiple modes",
     "authors": "<strong>Yiming Dong*</strong>, Ziming Wang*, Hai-Tian Wang, Junjie Zhao, Lijing Shao†",
     "venue": "Nature Astronomy",
