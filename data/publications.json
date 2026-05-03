@@ -1,8 +1,19 @@
 [
   {
+    "title": "Cracking Gravitational Wave Multiple Ringdown Modes in Space",
+    "authors": "Ziming Wang, Han Wang, Yuxin Yang, <strong>Yiming Dong</strong>, Hai-Tian Wang, Yi-Ming Hu, Lijing Shao†",
+    "venue": "Preprint",
+    "year": "2026",
+    "highlight": "",
+    "thumbnail": "assets/publications/Firefly-space/fig.png",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2604.20914" }
+    ]
+  },
+  {
     "title": "Probing RLVR training instability through the lens of objective-level hacking",
     "authors": "<strong>Yiming Dong</strong>, Kun Fu, Haoyu Li, Xinyuan Zhu, Yurou Liu, Lijing Shao, Jieping Ye, Zheng Wang†",
-    "venue": "Preprint",
+    "venue": "ICML'26",
     "year": "2026",
     "highlight": "",
     "thumbnail": "assets/publications/RLVR_instability/workflow.png",

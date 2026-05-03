@@ -421,7 +421,8 @@ function getVenueFullName(venueStr, year) {
     if (s.includes('GLOBECOM')) return `IEEE Global Communications Conference (GLOBECOM${yearSuffix})`;
     if (s.includes('INFOCOM')) return `IEEE International Conference on Computer Communications (INFOCOM${yearSuffix})`;
     if (s.includes('MOBICOM')) return `Annual International Conference on Mobile Computing and Networking (MobiCom${yearSuffix})`;
-    if (s.includes('ICLR')) return `International Conference on Learning Representations (ICLR${yearSuffix})`;
+    if (s.includes("ICLR'26")) return `The Fourteenth International Conference on Learning Representations (ICLR 2026)`;
+    if (s.includes("ICML'26")) return `The Forty-Third International Conference on Machine Learning (ICML 2026)`;
 
     // Astronomy & Astrophysics Journals (No year suffix)
     if (s === 'ApJ') return 'The Astrophysical Journal';
@@ -446,6 +447,7 @@ function getCCFRank(fullName, originalVenue) {
         v.includes('tmc') || v.includes('mobile computing') || 
         v.includes('aaai') || v.includes('neurips') || 
         v.includes('cvpr') || v.includes('iccv') || 
+        v.includes('icml') || v.includes('iclr') || 
         v.includes('infocom') || v.includes('jsac')) {
         return 'A';
     }
