@@ -1,5 +1,17 @@
 [
   {
+    "title": "An agentic framework for gravitational-wave counterpart association in the multi-messenger era",
+    "authors": "<strong>Yiming Dong</strong>, Yacheng Kang, Junjie Zhao, Xinyuan Zhu, Ziming Wang, Lijing Shao†",
+    "venue": "Preprint",
+    "year": "2026",
+    "highlight": "",
+    "thumbnail": "assets/publications/GW-Eyes/Fig1.png",
+    "tags": [
+      { "text": "Paper", "link": "https://arxiv.org/abs/2605.10584" },
+      { "text": "Code", "link": "https://github.com/Yiming-astro/GW-Eyes" }
+    ]
+  },
+  {
     "title": "Cracking Gravitational Wave Multiple Ringdown Modes in Space",
     "authors": "Ziming Wang, Han Wang, Yuxin Yang, <strong>Yiming Dong</strong>, Hai-Tian Wang, Yi-Ming Hu, Lijing Shao†",
     "venue": "Preprint",
